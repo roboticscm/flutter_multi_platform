@@ -69,7 +69,7 @@ class _ListItemPageState extends State<ListItemPage> {
       return Center(child: Text("No data found"),);
     else {
       return GridView.count(
-        crossAxisCount: (MediaQuery.of(context).size.width/200).floor(),
+        crossAxisCount: (MediaQuery.of(context).size.width/160).floor(),
         mainAxisSpacing: 4.0,
         crossAxisSpacing: 4.0,
         childAspectRatio: 0.9,

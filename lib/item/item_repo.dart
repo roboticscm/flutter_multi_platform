@@ -5,7 +5,8 @@ import 'package:http/http.dart' as http;
 
 
 class ItemRepo {
-  static const PREFIX_URL = "http://192.168.10.16:8182/api/public";
+  //static const PREFIX_URL = "http://192.168.10.16:8182/api/public";
+  static const PREFIX_URL = "https://skyhub.suntech.com.vn:8443/api/public";
   int page = 0;
   static const PAGE_SIZE = 100;
 
